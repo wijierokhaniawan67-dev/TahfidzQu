@@ -134,7 +134,7 @@ export default function App() {
     // 2. Normal database-backed login
     if (!spreadsheetId) {
       setAuthError(
-        "Aplikasi belum dikonfigurasi dengan Spreadsheet. Gunakan username 'admin' & password 'admin123' untuk mengonfigurasi database terlebih dahulu."
+        "Aplikasi belum dikonfigurasi dengan Spreadsheet."
       );
       setIsLoggingIn(false);
       return;
@@ -142,7 +142,7 @@ export default function App() {
 
     if (!token && !appsScriptUrl) {
       setAuthError(
-        "Koneksi Google Sheets kosong. Silakan login sebagai 'admin' lalu hubungkan akun Google atau gunakan URL Google Apps Script di menu Kelola Database."
+        "Koneksi Google Sheets kosong."
       );
       setIsLoggingIn(false);
       return;
@@ -297,7 +297,7 @@ export default function App() {
 
           <div className="border-t border-slate-100 pt-4 text-center">
             <span className="text-[10px] text-slate-400 block font-semibold">
-              Gunakan username <code className="bg-slate-100 px-1 py-0.5 rounded text-emerald-800">admin</code> & password <code className="bg-slate-100 px-1 py-0.5 rounded text-emerald-800">admin123</code> untuk login darurat / inisialisasi pertama kali.
+              Aplikasi ini dibuat Oleh Wijaya Purnama
             </span>
           </div>
         </div>
