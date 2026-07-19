@@ -1,0 +1,6 @@
+{
+  "name": "TahfidzQu",
+  "description": "Aplikasi pendataan hapalan Al-Quran siswa harian terintegrasi Google Sheets dengan laporan WhatsApp dan progres bulanan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
